@@ -1,0 +1,40 @@
+@media (max-width: 375px) {
+  body,
+  html {
+    height: auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  #myImage {
+    content: url('/assets/images/illustration-sign-up-mobile.svg');
+  }
+
+  .card-container {
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 0px;
+  }
+
+  .success-modal {
+    border-radius: 0px;
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+
+  .login {
+    padding: 3rem 2rem;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+}

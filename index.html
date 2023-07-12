@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/queries.css" />
+    <script defer src="script.js"></script>
+
+    <title>Stay updated!</title>
+  </head>
+  <body>
+    <modal class="success-modal close" id="success">
+      <div>
+        <img src="/assets/images/icon-success.svg" class="success-icon" />
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to
+          <strong>ash@loremcompany.com</strong>. Please open it and click the
+          button inside to confirm your subscription.
+        </p>
+      </div>
+      <button class="dismiss-btn" id="dismiss">Dismiss message</button>
+    </modal>
+    <div class="card-container" id="newsletter">
+      <div class="login">
+        <h1>Stay updated!</h1>
+        <p>
+          Join 60,000+ product managers receiving monthly <br />
+          updates on:
+        </p>
+        <ul class="list-container">
+          <li>
+            <img src="assets/images/icon-list.svg" />
+            <p>Product discovery and building what matters</p>
+          </li>
+          <li>
+            <img src="assets/images/icon-list.svg" />
+            <p>Measuring to ensure updates are a success</p>
+          </li>
+          <li>
+            <img src="assets/images/icon-list.svg" />
+            <p>And much more!</p>
+          </li>
+        </ul>
+        <form class="form">
+          <div class="form-headings">
+            <label>Email address</label>
+            <span id="label-sub" class="close">Valid email required</span>
+          </div>
+          <input placeholder="email@company.com" id="input" />
+          <button type="submit" id="subscribe">
+            Subscribe to monthly newsletter
+          </button>
+        </form>
+      </div>
+      <img
+        class="image"
+        src="assets/images/illustration-sign-up-desktop.svg"
+        id="myImage"
+      />
+    </div>
+  </body>
+</html>
